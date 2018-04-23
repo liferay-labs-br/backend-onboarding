@@ -1,0 +1,19 @@
+.tutorial .sidebar-tutorials {
+    padding-top: 3rem;
+    position: relative;
+
+    .back-link.sidebar-link-read {
+        position: absolute;
+        top: 6px;
+        left: 10px;
+        height: initial;
+
+        .section-title {
+            text-decoration: none;
+        }
+
+        .tutorial-step span {
+            line-height: 38px;
+        }
+    }
+}

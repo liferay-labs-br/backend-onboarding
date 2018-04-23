@@ -1,0 +1,16 @@
+.headerMainPage {
+    background-color: #298fff;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    padding: 200px 0 130px;
+    width: 100%;
+    color: #ffff;
+    height: calc(100vh - 59px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    padding: 0;
+}

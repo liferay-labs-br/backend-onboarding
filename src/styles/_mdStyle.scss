@@ -1,0 +1,19 @@
+
+.docs .guide-content blockquote {
+    padding-left: 30px;
+    border-left: solid 3px #a0aabf;
+
+    &:after, &:before {
+        display: none;
+    }
+}
+
+.docs .guide-content blockquote, .docs .guide-content blockquote p:not([class]) {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: calc(1.8rem * 1.5);
+}
+
+.docs .guide-content ul:not([class]), .docs .guide-content ol:not([class]) {
+    margin-left : 10%;
+}
