@@ -12,7 +12,7 @@ weight: 4
 
 ## MVC Portlet
 
-Web applications are often developed following the Model View Controller (MVC) pattern. But Liferay has developed a different implementation for the MVC model. The Liferay MVC portlet framework is light, it hides part of the complexity of portlets, and it makes the most common operations easier..
+Web applications are often developed following the Model View Controller (MVC) pattern. But Liferay has developed a different implementation for the MVC model. The Liferay MVC portlet framework is light, it hides part of the complexity of portlets, and it makes the most common operations easier.
 
 In MVC pattern, there are three layers:
 - **Model:** The model layer holds the application data and logic for manipulating it.

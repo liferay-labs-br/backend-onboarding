@@ -20,21 +20,21 @@ Modules are the basic unit of modularity for applications. They act as container
 
 <img src="/images/osgi-apps.png" />
 
-An OSGI bundle is nothing but a JAR file with extra meta data.A bundle contains java classes, a manifest file and other resources (JSPs, properties files, text data). So we can say that every OSGI bundle is JAR file, but reverse is not true. That means that if you want to convert a JAR file into bundle is necessary to add extra metadata into the MANIFEST.MF file. These extra meta data are known as OSGI Headers, key elements which turns a normal JAR file into a Bundle.
+An OSGI bundle is nothing but a JAR file with extra meta data. A bundle contains java classes, a manifest file and other resources (JSPs, properties files, text data). So we can say that every OSGI bundle is JAR file, but reverse is not true. That means that if you want to convert a JAR file into bundle it's necessary to add extra metadata into the MANIFEST.MF file. These extra meta data are known as OSGI Headers, key elements which turns a normal JAR file into a Bundle.
 
 <img src="/images/osgi-module.png" />
 
 OSGI Bundle Life Cycle:
 
-**INSTALLED:** The bundle has been installed into the OSGi container, but some required bundle dependencies is missing.A bundle in this state can’t be start.
+**INSTALLED:** The bundle has been installed into the OSGi container, but some required bundle dependencies are missing. A bundle in this state can’t be started.
 
 **RESOLVED:** All Java classes that the bundle needs are available. This state indicates that the bundle is either ready to be started or has stopped. 
 
-**STARTING:** The bundle is being started, the BundleActivator.start method has been called but the start method has not yet returned. When the bundle has an activation policy, the bundle will remain in the STARTING state until the bundle is activated according to its activation policy.
+**STARTING:** The bundle is being started, the `BundleActivator.start` method has been called but the start method has not yet returned. When the bundle has an activation policy, the bundle will remain in the STARTING state until the bundle is activated according to its activation policy.
 
 **ACTIVE:** The bundle has been successfully activated and is running. Its Bundle Activator start method has been called and returned.
 
-**STOPPING:** The bundle is being stopped. The BundleActivator.stop method has been called but the stop method has not yet returned.
+**STOPPING:** The bundle is being stopped. The `BundleActivator.stop` method has been called but the stop method has not yet returned.
 
 **UNINSTALLED:** The bundle has been uninstalled. It cannot move into another state.
 
