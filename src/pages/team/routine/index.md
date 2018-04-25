@@ -13,7 +13,7 @@ weight: 5
 ## Ticket Management
 
 All the work in progress in engineering is monitored by a issue management (Jira). This system provides bug tracking, issue tracking, and project management functions. In other words, helps the team to keep an eye on all the activities day by day.
-Every team has your own kanban board with all your integrants as participants. In that way, Everyone knows which activity is aimed at who and their progress throughout the sprint. The image below shows a kanban board, which it can be noticed the participants and their issues. 
+Every team has its own kanban board with all your integrants as participants. In that way, Everyone knows which activity is aimed at who and their progress throughout the sprint. The image below shows a kanban board, which it can be noticed the participants and their issues. 
 
 <img src="/images/kanbanBoard.png" />
 
@@ -57,7 +57,7 @@ This image below shows the successful ticket management to the bugs and regressi
 
 The team meetings have the objective to verify the status of the work, but also to check if there is any need or trouble. For a meeting to be productive, it is necessary to list the different motives to be discussed and to mark different sessions to discuss each topic separately. In this way, the meeting does not become exhaustive or confusing.
 
-There are differents types of meetings:
+There are different types of meetings:
 - **Backlog Refinement:** An event to refine and update the backlog with initial effort for each ticket and an opportunity to alignment and re-evaluate tickets and priorities. This meeting will occur every two weeks, in the week before the Planning meeting. It must involve the product manager, technical leader, product designer.
     - every two weeks, in the week before planning meeting.
 - **Planning:** Understand the stories with the proper acceptance criteria. The Product Manager will present all the stories for the new cycle and the team will assess each story, commit/accepted it to the sprint and breakdown it into small subtasks.
